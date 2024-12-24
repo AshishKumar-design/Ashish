@@ -5153,23 +5153,18 @@ iframe {
 }
 
 #download-btn:hover {
-  background: linear-gradient(
-    90deg,
-    #0c8ace,
-    #15a1d5
-  ); /* Attractive gradient */
-  color: #ffffff; /* Ensure text remains visible */
-  transform: scale(1.1) rotate(1deg); /* Slightly enlarge and rotate */
-  filter: brightness(1.2); /* Slightly brighter effect */
+  background: linear-gradient(90deg, #0c8ace, #15a1d5);
+  color: #ffffff;
+  transform: scale(1.1) rotate(1deg);
+  filter: brightness(1.2);
 }
 #download-btn i {
   margin-right: 10px;
 }
 
 @media (max-width: 768px) {
-  /* Adjust the max-width as needed for your mobile breakpoint */
   .leftul {
-    margin-left: -18px !important; /* Override inline styles with !important */
+    margin-left: -18px !important;
   }
 
   .gapmobile {
@@ -5178,9 +5173,9 @@ iframe {
 }
 
 .sectionHeadImage {
-  width: 100%; /* Makes the image take up the full width of its container */
-  height: auto; /* Maintains the aspect ratio */
-  max-width: 320px; /* Optional: sets a maximum width */
+  width: 100%;
+  height: auto;
+  max-width: 320px;
   display: block; /* Ensures there are no extra spaces below the image */
   margin: 0 auto; /* Center the image horizontally */
   margin-bottom: 10px;
